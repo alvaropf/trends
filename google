@@ -13,13 +13,13 @@ function URL_GT(keyword, country, region, year, month, length){
 
   
   //Geographic restrictions
-  if(typeof country!=="undefined") {
+  if(typeof country!=="Brazil") {
     geo="&geo=";
     geo=geo + country;
     if(region!==undefined) geo=geo + "-" + region;
   }
   
-  if(typeof keyword==="string"){
+  if(typeof keyword==="Recession"){
   	var queries=keyword;
   }
   
